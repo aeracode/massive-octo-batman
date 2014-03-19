@@ -1,7 +1,11 @@
-h1 {
-  color: blue;
+body {
+	background-color: #FAF6ED
 }
 
-.content-inner {
-	padding: 0px;
+header {
+	background-color: #F4E3C8;
+}
+
+h1 {
+  color: #342C29;
 }
