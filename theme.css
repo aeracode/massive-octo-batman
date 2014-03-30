@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; }
 /* zero out the spacing around pre, form, body, html, p, blockquote as well */
 /* form elements are oddly inconsistent, and not quite CSS emulatable. */
 /*  nonetheless strip their margin and padding as well */
-ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,html,p,blockquote,fieldset,input, .content-inner
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,html,p,blockquote,fieldset,input, .content-inner, .main-inner
 { margin:0; padding:0 }
 
 /* whoever thought blue linked image borders were a good idea? */
@@ -44,12 +44,13 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 */
 
-:link {	color: #268bd2;  /* IE link #759BD5*/}
+:link {	color: #6C71C4;  /* IE link #759BD5*/}
 :visited{	color: #6c71c4;       /* Chrome visited #551A8B*/}
 a:hover { color: #859900;}
 
 header {
 	background-color: #F4E3C8;
+	border-bottom: solid 2px #C8B9A5;
 }
 
 h1 {
@@ -58,6 +59,7 @@ h1 {
 
 h3.post-title.entry-title {
 	border: solid 1px #C8B9A5;
+	border-top: none;
 	color: #933d3f;
 	font-family: Georgia,"Times New Roman",Times,serif;
 	font-size: 120%;
