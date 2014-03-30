@@ -59,12 +59,12 @@ h1 {
 
 h3.post-title.entry-title {
 	border: solid 1px #C8B9A5;
-	border-top: none;
 	color: #933d3f;
 	font-family: Georgia,"Times New Roman",Times,serif;
 	font-size: 120%;
 	font-style: italic;
 	font-weight: normal;
+	margin-top: -1px;
 	padding: 0.8em;
 	text-align: center;
 }
