@@ -35,7 +35,8 @@ address { font-style:normal }
 
 body {
 	margin:0; padding:0;
-	background-color: #FAF6ED
+	background-color: #FAF6ED;
+	text-align: center;
 }
 
 /*
@@ -67,4 +68,18 @@ h3.post-title.entry-title {
 	margin-top: -1px;
 	padding: 0.8em;
 	text-align: center;
+}
+
+div.post-outer{
+	margin: 0 auto;
+	text-align: left;
+	width: 980px;
+	zoom: 1;
+}
+
+.cmt_iframe_holder{
+	margin: 0 auto !important;
+	text-align: left;
+	width: 980px !important;
+	zoom: 1;
 }
