@@ -34,8 +34,10 @@ address { font-style:normal }
 
 
 body {
-	margin:0; padding:0;
 	background-color: #FAF6ED;
+	color: #393318;
+	margin: 0;
+	padding: 0;
 	text-align: center;
 }
 
@@ -45,9 +47,9 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 */
 
-:link {	color: #6C71C4;  /* IE link #759BD5*/}
-:visited{	color: #6c71c4;       /* Chrome visited #551A8B*/}
-a:hover { color: #859900;}
+:link {	color: #ae3737;  /* IE link #759BD5*/}
+:visited{	color: #ae3737;       /* Chrome visited #551A8B*/}
+a:hover { color: #6C71C4;}
 
 header {
 	background-color: #F4E3C8;
@@ -82,4 +84,15 @@ div.post-outer{
 	text-align: left;
 	width: 980px !important;
 	zoom: 1;
+}
+
+/* Labels, Tags */
+span.post-labels > a {
+	background-color: #b35d5f;
+	border-radius: 10px;
+	font-family: Tahoma;
+	font-size: 65%;
+	color: #FAF6ED;
+	padding: 0px 5px 1px 5px;
+
 }
